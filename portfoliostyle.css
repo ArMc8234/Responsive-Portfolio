@@ -1,0 +1,253 @@
+/* <!--Style--> */
+
+ header {
+     padding: 0px;
+     background-color: #ffff;
+     width: 100%;
+}
+
+@media screen and (max-width: 980px) {
+    #MyName {
+        font-size: 24px;
+        width: 70px;
+        margin-left: 200px;
+        padding: 20px;
+    }
+
+
+    #NavMenu {
+        font-size: 16px;
+        width: 200px;
+        margin-right: 200px;
+        margin-top: 50px;
+        margin-bottom: 0;
+        Padding: 5px;
+    }
+
+
+    .EntireContent {
+         width: 100%;
+        Padding: 50px;
+    }
+
+    .MainContent {
+        line-height: 20px;
+        width: 900px;
+        height: 400px;
+        padding: 20px 30px; 
+        margin: auto;
+    }
+
+    h2 {
+        font-size: 20px;
+        padding: 10px;
+        width: 850px;
+        border-bottom: 2px solid;
+        border-bottom-color: #777777;
+        margin-bottom: 5px;
+    }
+
+    footer {
+        padding: 20px;
+        width: 100%;
+        position: sticky;
+        text-align: center;
+        border-top: 8px solid;
+        border-top-color: #4aaaa5;
+        background-color: #777777;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    #MyName {
+        font-size: 16px;
+        width: 40px;
+        margin-left: 100px;
+        padding: 15px;
+    }
+
+    #NavMenu {
+        font-size: 16px;
+        width: 40px;
+        margin-right: 100px;
+        margin-top: 20px;
+        margin-bottom: 0;
+        Padding: 5px;
+    }
+
+    .EntireContent {
+        width: 100%;
+       Padding: 30px;
+   }
+
+   .MainContent {
+    line-height: 17px;
+    width: 700px;
+    height: 100px;
+    padding: 15px 20px; 
+    margin: auto;
+    }
+
+    h2 {
+        font-size: 10px;
+        padding: 10px;
+        width: 500px;
+        border-bottom: 2px solid;
+        margin-bottom: 5px;
+    }
+
+    footer {
+        padding: 15px;
+        width: 100%;
+        border-top: 8px solid;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    #MyName {
+        font-size: 10px;
+        width: 30px;
+        margin-left: 80px;
+        padding: 10px;
+    }
+
+    #NavMenu {
+        font-size: 8px;
+        width: 30px;
+        margin-right: 80px;
+        margin-top: 10px;
+        margin-bottom: 0;
+        Padding: 2px;
+    }
+
+    .EntireContent {
+        width: 100%;
+       Padding: 10px;
+   }
+
+   .MainContent {
+    line-height: 10px;
+    width: 600px;
+    height: 70px;
+    padding: 10px 10px; 
+    margin: auto;
+    }
+
+    h2 {
+        font-size: 8px;
+        padding: 8px;
+        width: 400px;
+        border-bottom: 2px solid;
+        margin-bottom: 2px;
+    }
+
+    footer {
+        padding: 8px;
+        width: 100%;
+        border-top: 2px solid;
+    }
+
+}
+ #MyName {
+     background-color:#4aaaa5;
+     color: #ffff;
+     font-size: 24px;
+     position: relative;
+     top: 0;
+     bottom: 0;
+     text-align: center;
+     width: 70px;
+     float: left;
+     margin-left: 200px;
+     padding: 20px
+ }
+
+ #NavMenu {
+    background-color: #ffff;
+    color: #777777;
+    font-size: 16px;
+    text-align: center;
+    width: 200px;
+    float: right;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    Padding: 5px;
+}
+
+.EntireContent {
+    clear: both;
+    display: block;
+    position: relative;
+    Top: 0px;
+    bottom: 0px;
+    background-image: url(regal.png);
+    margin: auto;
+    width: 100%;
+    Padding: 50px;
+}
+
+.MainContent {
+    background-color: #ffff;
+    border: 2px solid;
+    border-color: black; 
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 20px;
+    width: 900px;
+    height: 400px;
+    padding: 20px 30px; 
+    margin: auto;
+    overflow: auto;
+}
+
+h2 {
+    text-align: left;
+    color: #4aaaa5;
+    font-size: 20px;
+    padding: 10px;
+    width: 850px;
+    border-bottom: 2px solid;
+    border-bottom-color: #777777;
+    margin-bottom: 5px;
+}
+
+.column1 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+    padding: 20px;
+}
+
+.column2 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: right;
+    padding: 20px;
+}
+
+.column3::after {
+        content: "";
+        clear: both;
+        display: table;
+    overflow: auto;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+    padding: 20px;
+}
+
+
+footer {
+    padding: 20px;
+    width: 100%;
+    position: sticky;
+    text-align: center;
+    border-top: 8px solid;
+    border-top-color: #4aaaa5;
+    background-color: #777777;
+}
